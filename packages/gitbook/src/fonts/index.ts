@@ -16,6 +16,8 @@ import {
     Source_Sans_3,
     Ubuntu,
     Noto_Color_Emoji,
+    Lalezar,
+    Vazirmatn
 } from 'next/font/google';
 import localFont from 'next/font/local';
 
@@ -33,7 +35,7 @@ export const fontNotoColorEmoji = Noto_Color_Emoji({
     while spaces only use one font at a time.
  */
 
-const inter = Inter({
+const inter = Vazirmatn({
     variable: '--font-content',
     preload: false,
     display: 'swap',
